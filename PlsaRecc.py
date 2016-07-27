@@ -19,7 +19,7 @@ class PlsaRecc(object):
         Initialize empty document list.
         '''
         self.documents = []
-        self.usr_itm_gtruth = np.load('kckdata/bkr_prj.mat')
+        self.usr_itm_gtruth = np.load('path_to_data')
         self.usr_itm_gtruth = self.usr_itm_gtruth.astype('int64')
         self.t_usrs = self.usr_itm_gtruth.shape[0]
         self.t_itms = self.usr_itm_gtruth.shape[1]
