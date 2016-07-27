@@ -73,7 +73,7 @@ class PlsaRecc(object):
     def plsa(self,max_iter):
         
         for itr in range(max_iter):
-            print 'done with %d iteration'%(itr)
+            print 'done with {} iteration'.format(itr)
             # sample a topic for z for every user and items the E step
             for usr in range(self.t_usrs):
                 for itm in range(self.t_itms):
