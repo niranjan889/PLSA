@@ -60,7 +60,6 @@ class PlsaRecc(object):
         self.__normalize_mat([self.usr_tp_prb, self.tp_itm_prb])
         print 'ok'
         
-        
 
     def add_document(self, document):
         '''
