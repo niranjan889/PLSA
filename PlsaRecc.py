@@ -112,7 +112,6 @@ class PlsaRecc(object):
                         tmp_p_zu += n_i_u * self.postr_tp_prb[usr, itm, z]
                     self.usr_tp_prb[usr][z] = tmp_p_zu
 
-
 if __name__ == '__main__':
     
     recc_obj = PlsaRecc(5)
