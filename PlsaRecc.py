@@ -65,7 +65,6 @@ class PlsaRecc(object):
         Add a document to the corpus.
         '''
         self.documents.append(document)
-        
 
     def plsa(self,max_iter):
         
