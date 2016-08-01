@@ -91,7 +91,6 @@ class PlsaRecc(object):
                         n_i_u = self.usr_itm_gtruth[usr][itm]
                         tmp_p_z += n_i_u * self.postr_tp_prb[usr, itm, z]
                 self.tp_prb[z] = tmp_p_z
-
             
             # obtain the item topic probability P(i | z)
             for z in range(self.t_tpic):
