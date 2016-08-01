@@ -101,7 +101,6 @@ class PlsaRecc(object):
                         n_i_u = self.usr_itm_gtruth[usr][itm]
                         tmp_p_zi += n_i_u * self.postr_tp_prb[usr, itm, z]
                     self.tp_itm_prb[z][itm] = tmp_p_zi
-
              
             # update P(u | z)
             for z in range(self.t_tpic):
