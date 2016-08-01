@@ -81,7 +81,6 @@ class PlsaRecc(object):
                             self.__normalize_mat(p_z_ui)
                     # update the posterior
                     self.postr_tp_prb[usr][itm] = p_z_ui
-            
 
             print "M step:"
             # obtain p(z)
