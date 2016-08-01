@@ -49,7 +49,6 @@ class PlsaRecc(object):
             else:
                 norm_sum = mat.sum()
             mat /= norm_sum[:, np.newaxis]
-            
         
     # method that assigning random initial values to the model parameters
     def init_random_param(self):
